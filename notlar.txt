@@ -1,0 +1,35 @@
+1-Veritabanı Bağlantısı
+2-SQL Cümlesi
+3-SQL Cümlenizi Databaseye gönder Execute et
+4-Sonuçları Kontrol Et
+5- Kayıt Kümesini Oku
+
+Connection Bağlantısı
+-------------------------------------------------------------
+<?php
+ $host = "localhost";
+ $database = "haberler";
+ $username = "root";
+ $password = "";
+
+ $conn = new mysqli($host,$username,$password,$database);
+ ----------------------------------------------------------------
+
+
+ 1-veritabanı
+ 2-roller
+ 3-users
+
+
+ 1-connection oluştur
+ 2-login ekranı
+ 3-kontrol.php
+ 4-index oluştur
+ 5-cikis.php
+ 6-kaydet.php
+ 7-users.php
+ 8-add_user.php
+ 9-update_user.php
+ 10-sil.php
+ 11-kontrol.php
+ 12-users.php role id ekle
